@@ -19,7 +19,7 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return redirect()->route('dashboard.index');
 });
 
 // Auth Route
